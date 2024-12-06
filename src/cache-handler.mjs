@@ -21,7 +21,7 @@ class CacheHandler {
       console.log('STALE', key)
       return null;
     }
-    console.log('HIT', key, { deltaTime, revalidate, currentTime, cacheTime, lastMod: value })
+    console.log('HIT', key)
     return value
 
   }
